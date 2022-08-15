@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: times new roman;
+}
+
+body {
+    color: black ;
+    background: #E8E8E8;
+}
+
+header {
+    
+    margin-top: -50px;
+    height: 125px;
+    background:#186870;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px; 
+    color: white;
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+}
+#user{
+    padding-right: 50px;
+}
+#margen{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#margenregistrar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#formregistrar{
+    background: gray;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+#formregistrarcat{
+    background: gray;
+    padding: 20px 100px 20px 100px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+#tabla{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+#myCarousel{
+    margin-top: -20px;
+}
+
+#seccion1{
+    background: #333;
+}
+#arriba{
+    font-size: 30px;
+    color:white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#izquierda{
+    padding: 50px;
+    background: #E8E8E8;
+    font-size: 15px;
+    color:black;
+}
+#seccion2{
+    background: #333;
+}
+#arriba{
+    font-size: 30px;
+    color:white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#img1{
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#derecha{
+    padding: 25px;
+    background: #186870;
+    font-size: 15px;
+    color:black;
+}
+#imagenR{ 
+    width: 100%;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+#cards{
+    background: #186870;
+    padding-bottom: 100px;
+}
+#all-browsers {
+  margin: 0;
+  padding: 5px;
+}
+#all-browsers > h1, #browser {
+  margin: 10px;
+  padding: 25px;
+  background: #A8D0C8;
+}
+#botones{
+    text-align: center;   
+}
+
+#footer {
+   position: fixed;
+   display: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #A8D0C8;
+   text-color: black;
+   text-align: center;
+}
+
+.cajita{
+    width: 350px;
+    height: 350px;
+    margin: 0.5em auto;
+    background: skyblue;
+}

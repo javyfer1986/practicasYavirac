@@ -1,0 +1,273 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "lato", sans-serif;
+}
+
+.Consultar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100vh;
+    float: left;
+    color: white;
+}   
+
+.consulta {
+    background-color: #186870;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110vh;
+    float: right;
+    color: white;
+    padding-bottom: 15vh;
+}
+
+.form {
+    background-color: #186870;
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+/* Style the inputs */
+
+.input {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+    color: white;
+}
+
+.input1 {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+    color: black;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+    color: transparent;
+}
+
+/* Styling text labels */
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: #186870;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.labelr {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: #186870;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #404048;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.submitBtn:hover {
+    background-color: #E76479;
+    transform: translateY(-2px);
+}
+
+.submitBtn2 {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #00A8B8;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -48px;
+    margin-right: 140px;
+}
+
+.submitBtn2:hover {
+    background-color: #6BDAD5;
+    transform: translateY(-2px);
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E8E8E8;
+}
+
+.input:focus {
+    border: 2px solid white;
+}
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.submitBtn3 {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #00CC33 ;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.submitBtn3:hover {
+    background-color: #6BDAD5;
+    transform: translateY(-2px);
+}
+
+
+
+.input1:focus {
+    border: 2px solid #404048;
+}
+
+.input1:not(:placeholder-shown)+ .labelr {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #404048;
+}
+
+.input1:focus + .labelr {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #404048;
+}
+
+
+/**/
+header {
+    margin-top: -50px;
+    height: 125px;
+    background:#186870;
+}
+
+header h1 {
+    font-family: times new roman;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px; 
+    color: white;
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+header h1 {
+    font-family: times new roman;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px; 
+    color: white;
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #A8D0C8;
+   color: black;
+   text-align: center;
+}

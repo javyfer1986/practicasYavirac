@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: times new roman;
+}
+
+body {
+    color: black ;
+    background: #E8E8E8;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.usuario{    
+    margin: 0.5em auto;
+    padding: 15px;
+}
+.usuario:hover{
+    width: 550px;
+    height: 95px;
+    margin: 0.5em auto;
+    background: skyblue;
+    font-size: 20px;
+    text-align: center;
+    border: 1.8px solid black;
+    padding: 15px;
+}
